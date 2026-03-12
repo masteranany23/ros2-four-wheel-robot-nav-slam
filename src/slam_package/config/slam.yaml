@@ -1,0 +1,97 @@
+# =============================================================================
+# slam_toolbox — Online Asynchronous SLAM Configuration
+# =============================================================================
+#
+# This configuration uses the Ceres non-linear least squares solver for
+# scan matching and pose graph optimization. The robot builds a map by
+# matching incoming laser scans against the existing map while maintaining
+# a pose graph of all scan poses and loop closure constraints.
+#
+# Inputs:
+#   /scan  (sensor_msgs/LaserScan) — 360° LiDAR data
+#   TF: odom → base_footprint     — wheel odometry transform
+#
+# Outputs:
+#   /map           (nav_msgs/OccupancyGrid) — occupancy grid map
+#   /map_metadata  (nav_msgs/MapMetaData)   — map resolution & origin
+#   TF: map → odom                          — corrected global pose
+# =============================================================================
+
+slam_toolbox:
+  ros__parameters:
+    # ----- Solver Configuration -----
+    # Ceres Solver performs non-linear optimization on the pose graph.
+    # SPARSE_NORMAL_CHOLESKY is efficient for sparse SLAM problems.
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # ----- Frame & Topic Configuration -----
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    mode: mapping
+
+    # ----- Processing Parameters -----
+    debug_logging: false
+    throttle_scans: 1               # Process every scan (no skipping)
+    transform_publish_period: 0.02  # 50 Hz TF broadcast
+    map_update_interval: 5.0        # Republish /map every 5 seconds
+    resolution: 0.05                # 5 cm occupancy grid cells
+    max_laser_range: 12.0           # Match robot's LiDAR max range
+    minimum_time_interval: 0.5      # Min time between processed scans
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.0
+    stack_size_to_use: 40000000     # 40 MB stack for Ceres solver
+
+    # ----- Scan Matching Parameters -----
+    # Controls how new scans are matched against the existing map.
+    # Scan matching uses correlative scan matching followed by Ceres
+    # refinement to find the best alignment.
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.5    # Min displacement (m) to add a new node
+    minimum_travel_heading: 0.5     # Min rotation (rad) to add a new node
+    scan_buffer_size: 10
+    scan_buffer_maximum_scan_distance: 10.0
+    link_match_minimum_response_fine: 0.1
+    link_scan_maximum_distance: 1.5
+
+    # ----- Loop Closure Parameters -----
+    # Loop closure detects when the robot revisits a previously mapped area.
+    # It adds constraints to the pose graph and triggers re-optimization,
+    # correcting accumulated drift.
+    do_loop_closing: true
+    loop_search_maximum_distance: 3.0
+    loop_match_minimum_chain_size: 10
+    loop_match_maximum_variance_coarse: 3.0
+    loop_match_minimum_response_coarse: 0.35
+    loop_match_minimum_response_fine: 0.45
+
+    # ----- Correlation Search Space -----
+    # Defines the search window for correlative scan matching.
+    # Larger values handle more odometry drift but cost more CPU.
+    correlation_search_space_dimension: 0.5
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1
+
+    # ----- Loop Closure Search Space -----
+    # Larger search window for loop closure candidates since
+    # accumulated drift can be significant.
+    loop_search_space_dimension: 8.0
+    loop_search_space_resolution: 0.05
+    loop_search_space_smear_deviation: 0.03
+
+    # ----- Scan Matcher Penalties -----
+    distance_variance_penalty: 0.5
+    angle_variance_penalty: 1.0
+    fine_search_angle_offset: 0.00349
+    coarse_search_angle_offset: 0.349
+    coarse_angle_resolution: 0.0349
+    minimum_angle_penalty: 0.9
+    minimum_distance_penalty: 0.5
+    use_response_expansion: true
