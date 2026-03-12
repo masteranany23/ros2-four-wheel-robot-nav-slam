@@ -1,0 +1,6 @@
+Invoking command in '/home/vini/ros2_ws/build/slam_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vini/ros2_ws/src/slam_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vini/ros2_ws/install/slam_package
+Invoked command in '/home/vini/ros2_ws/build/slam_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vini/ros2_ws/src/slam_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vini/ros2_ws/install/slam_package
+Invoking command in '/home/vini/ros2_ws/build/slam_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/slam_package -- -j8 -l8
+Invoked command in '/home/vini/ros2_ws/build/slam_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/slam_package -- -j8 -l8
+Invoking command in '/home/vini/ros2_ws/build/slam_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/slam_package
+Invoked command in '/home/vini/ros2_ws/build/slam_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/slam_package

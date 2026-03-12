@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/vini/ros2_ws/build/localization': AMENT_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/localization -- -j8 -l8
+[0.051s] Invoked command in '/home/vini/ros2_ws/build/localization' returned '0': AMENT_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/localization -- -j8 -l8
+[0.055s] Invoking command in '/home/vini/ros2_ws/build/localization': AMENT_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/localization
+[0.062s] -- Install configuration: ""
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/launch/localization.launch.py
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/config/amcl.yaml
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/config/localization.rviz
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/maps/map.yaml
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[0.063s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/environment/path.dsv
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/local_setup.bash
+[0.065s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/local_setup.sh
+[0.066s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/local_setup.zsh
+[0.066s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/local_setup.dsv
+[0.066s] -- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/package.dsv
+[0.075s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/packages/localization
+[0.076s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[0.076s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[0.076s] -- Up-to-date symlink: /home/vini/ros2_ws/install/localization/share/localization/package.xml
+[0.079s] Invoked command in '/home/vini/ros2_ws/build/localization' returned '0': AMENT_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/localization

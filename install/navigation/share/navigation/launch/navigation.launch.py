@@ -1,0 +1,1 @@
+/home/vini/ros2_ws/src/navigation/launch/navigation.launch.py

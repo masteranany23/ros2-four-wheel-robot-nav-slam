@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/vini/ros2_ws/build/four_wheel_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/four_wheel_robot_description -- -j8 -l8
+[0.106s] Invoked command in '/home/vini/ros2_ws/build/four_wheel_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/four_wheel_robot_description -- -j8 -l8
+[0.127s] Invoking command in '/home/vini/ros2_ws/build/four_wheel_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/four_wheel_robot_description
+[0.143s] -- Install configuration: ""
+[0.144s] -- Execute custom install script
+[0.145s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/launch/display.launch.py
+[0.145s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/launch/gazebo.launch.py
+[0.146s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/urdf/robot.urdf.xacro
+[0.147s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/config/controllers.yaml
+[0.147s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/config/robot.rviz
+[0.148s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/package_run_dependencies/four_wheel_robot_description
+[0.148s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/parent_prefix_path/four_wheel_robot_description
+[0.149s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/ament_prefix_path.sh
+[0.149s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/ament_prefix_path.dsv
+[0.150s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/path.sh
+[0.150s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/path.dsv
+[0.150s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.bash
+[0.151s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.sh
+[0.151s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.zsh
+[0.151s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.dsv
+[0.151s] -- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/package.dsv
+[0.171s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/packages/four_wheel_robot_description
+[0.172s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/cmake/four_wheel_robot_descriptionConfig.cmake
+[0.172s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/cmake/four_wheel_robot_descriptionConfig-version.cmake
+[0.172s] -- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/package.xml
+[0.176s] Invoked command in '/home/vini/ros2_ws/build/four_wheel_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/four_wheel_robot_description

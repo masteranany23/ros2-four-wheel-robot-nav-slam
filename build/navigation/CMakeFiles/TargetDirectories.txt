@@ -1,0 +1,9 @@
+/home/vini/ros2_ws/build/navigation/CMakeFiles/uninstall.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/navigation_uninstall.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/test.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/edit_cache.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/rebuild_cache.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/list_install_components.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/install.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/install/local.dir
+/home/vini/ros2_ws/build/navigation/CMakeFiles/install/strip.dir

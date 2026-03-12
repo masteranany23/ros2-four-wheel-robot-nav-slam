@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/launch/display.launch.py
+-- Up-to-date symlink: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/urdf/robot.urdf.xacro
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/package_run_dependencies/four_wheel_robot_description
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/parent_prefix_path/four_wheel_robot_description
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/path.sh
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/environment/path.dsv
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.bash
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.sh
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.zsh
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/local_setup.dsv
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/package.dsv
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/ament_index/resource_index/packages/four_wheel_robot_description
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/cmake/four_wheel_robot_descriptionConfig.cmake
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/cmake/four_wheel_robot_descriptionConfig-version.cmake
+-- Symlinking: /home/vini/ros2_ws/install/four_wheel_robot_description/share/four_wheel_robot_description/package.xml

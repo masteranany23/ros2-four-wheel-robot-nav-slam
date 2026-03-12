@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/vini/ros2_ws/build/slam_package': CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/home/vini/ros2_ws/install/bringup:/home/vini/ros2_ws/install/slam_package:/home/vini/ros2_ws/install/navigation:/home/vini/ros2_ws/install/localization:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/slam_package -- -j8 -l8
+[0.051s] Invoked command in '/home/vini/ros2_ws/build/slam_package' returned '0': CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/home/vini/ros2_ws/install/bringup:/home/vini/ros2_ws/install/slam_package:/home/vini/ros2_ws/install/navigation:/home/vini/ros2_ws/install/localization:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/slam_package -- -j8 -l8
+[0.053s] Invoking command in '/home/vini/ros2_ws/build/slam_package': CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/home/vini/ros2_ws/install/bringup:/home/vini/ros2_ws/install/slam_package:/home/vini/ros2_ws/install/navigation:/home/vini/ros2_ws/install/localization:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/slam_package
+[0.064s] -- Install configuration: ""
+[0.064s] -- Execute custom install script
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/launch/slam.launch.py
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/config/slam.rviz
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/config/slam.yaml
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/package_run_dependencies/slam_package
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/parent_prefix_path/slam_package
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/path.dsv
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.bash
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.sh
+[0.064s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.zsh
+[0.065s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.dsv
+[0.065s] -- Symlinking: /home/vini/ros2_ws/install/slam_package/share/slam_package/package.dsv
+[0.071s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/packages/slam_package
+[0.071s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/cmake/slam_packageConfig.cmake
+[0.071s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/cmake/slam_packageConfig-version.cmake
+[0.071s] -- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/package.xml
+[0.093s] Invoked command in '/home/vini/ros2_ws/build/slam_package' returned '0': CMAKE_PREFIX_PATH=/home/vini/ros2_ws/install/four_wheel_robot_description:/home/vini/ros2_ws/install/bringup:/home/vini/ros2_ws/install/slam_package:/home/vini/ros2_ws/install/navigation:/home/vini/ros2_ws/install/localization:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/slam_package

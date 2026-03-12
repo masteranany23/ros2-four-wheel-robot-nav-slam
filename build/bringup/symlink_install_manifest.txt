@@ -1,0 +1,16 @@
+/home/vini/ros2_ws/install/bringup/share/bringup/launch/robot_system.launch.py
+/home/vini/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+/home/vini/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+/home/vini/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+/home/vini/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+/home/vini/ros2_ws/install/bringup/share/bringup/environment/path.sh
+/home/vini/ros2_ws/install/bringup/share/bringup/environment/path.dsv
+/home/vini/ros2_ws/install/bringup/share/bringup/local_setup.bash
+/home/vini/ros2_ws/install/bringup/share/bringup/local_setup.sh
+/home/vini/ros2_ws/install/bringup/share/bringup/local_setup.zsh
+/home/vini/ros2_ws/install/bringup/share/bringup/local_setup.dsv
+/home/vini/ros2_ws/install/bringup/share/bringup/package.dsv
+/home/vini/ros2_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+/home/vini/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+/home/vini/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+/home/vini/ros2_ws/install/bringup/share/bringup/package.xml

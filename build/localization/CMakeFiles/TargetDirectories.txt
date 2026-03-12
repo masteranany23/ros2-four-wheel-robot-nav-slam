@@ -1,0 +1,9 @@
+/home/vini/ros2_ws/build/localization/CMakeFiles/uninstall.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/localization_uninstall.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/test.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/edit_cache.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/rebuild_cache.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/list_install_components.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/install.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/install/local.dir
+/home/vini/ros2_ws/build/localization/CMakeFiles/install/strip.dir

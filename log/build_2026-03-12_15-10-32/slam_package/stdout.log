@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/launch/slam.launch.py
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/config/slam.rviz
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/config/slam.yaml
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/package_run_dependencies/slam_package
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/parent_prefix_path/slam_package
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/path.sh
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/environment/path.dsv
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.bash
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.sh
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.zsh
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/local_setup.dsv
+-- Symlinking: /home/vini/ros2_ws/install/slam_package/share/slam_package/package.dsv
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/ament_index/resource_index/packages/slam_package
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/cmake/slam_packageConfig.cmake
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/cmake/slam_packageConfig-version.cmake
+-- Up-to-date symlink: /home/vini/ros2_ws/install/slam_package/share/slam_package/package.xml

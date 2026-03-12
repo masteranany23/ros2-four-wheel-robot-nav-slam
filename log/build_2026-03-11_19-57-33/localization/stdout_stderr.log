@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vini/ros2_ws/build/localization
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/launch/localization.launch.py
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/config/amcl.yaml
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/config/localization.rviz
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/maps/map.yaml
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/environment/path.sh
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/environment/path.dsv
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/local_setup.bash
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/local_setup.sh
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/local_setup.zsh
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/local_setup.dsv
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/package.dsv
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/ament_index/resource_index/packages/localization
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+-- Symlinking: /home/vini/ros2_ws/install/localization/share/localization/package.xml

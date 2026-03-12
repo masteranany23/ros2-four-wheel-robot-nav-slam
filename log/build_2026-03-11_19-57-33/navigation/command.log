@@ -1,0 +1,6 @@
+Invoking command in '/home/vini/ros2_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vini/ros2_ws/src/navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vini/ros2_ws/install/navigation
+Invoked command in '/home/vini/ros2_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vini/ros2_ws/src/navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vini/ros2_ws/install/navigation
+Invoking command in '/home/vini/ros2_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/navigation -- -j8 -l8
+Invoked command in '/home/vini/ros2_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vini/ros2_ws/build/navigation -- -j8 -l8
+Invoking command in '/home/vini/ros2_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/navigation
+Invoked command in '/home/vini/ros2_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vini/ros2_ws/build/navigation
